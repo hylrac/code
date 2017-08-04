@@ -1,0 +1,7 @@
+Coucou disque 1 du fichier
+101
+2
+Super chanson 1
+5
+Super chanson 2
+6

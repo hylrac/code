@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>exoconnexion</display-name>
+  <welcome-file-list>
+    <welcome-file>accueil.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Accueil</servlet-name>
+    <servlet-class>io.sopra.pox3.exoconnexion.AccueilServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Accueil</servlet-name>
+    <url-pattern>/accueil.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Connexion</servlet-name>
+    <servlet-class>io.sopra.pox3.exoconnexion.ConnexionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Connexion</servlet-name>
+    <url-pattern>/connexion.html</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Deco</servlet-name>
+    <servlet-class>io.sopra.pox3.exoconnexion.DecoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Deco</servlet-name>
+    <url-pattern>/deco.html</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Chat</servlet-name>
+    <servlet-class>io.sopra.pox3.exoconnexion.ChatServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Chat</servlet-name>
+    <url-pattern>/chat.html</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
